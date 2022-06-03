@@ -1,24 +1,24 @@
 # 1.	Найти сумму чисел списка стоящих на нечетной позиции (нечетный индекс или нечетный по счету?)
 #
-# import random
-# N = int(input("Введите количество элементов в списке: "))
-# list = []
-# sum1 = 0    #сумма для элементов стоящих на нечетных индексах
-# sum2 = 0    #сумма для элементов стоящих на нечетных позициях
-# for i in range(1, N+1):
-#     list.append(random.randint(0, 10))
-#
-# print(list)
-#
-# for i,numbers in enumerate(list):
-#     if i % 2 != 0:
-#         sum1 = sum1 + numbers
-# print(sum1)
-#
-# for i,numbers in enumerate(list):
-#     if i % 2 == 0:
-#         sum2 = sum2 + numbers
-# print(sum2)
+import random
+N = int(input("Введите количество элементов в списке: "))
+list = []
+sum1 = 0    #сумма для элементов стоящих на нечетных индексах
+sum2 = 0    #сумма для элементов стоящих на нечетных позициях
+for i in range(1, N+1):
+    list.append(random.randint(0, 10))
+
+print(list)
+
+for i,numbers in enumerate(list):
+    if i % 2 != 0:
+        sum1 = sum1 + numbers
+print(sum1)
+
+for i,numbers in enumerate(list):
+    if i % 2 == 0:
+        sum2 = sum2 + numbers
+print(sum2)
 
 # 2.	Найти произведение пар чисел в списке. Парой считаем первый и последний элемент, второй и предпоследний и т.д.
 # Пример: [2, 3, 4, 5, 6] => [12, 15, 16]; [2, 3, 5, 6] => [12, 15]
