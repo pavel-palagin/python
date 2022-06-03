@@ -1,5 +1,5 @@
 # 1.	Найти сумму чисел списка стоящих на нечетной позиции (нечетный индекс или нечетный по счету?)
-
+#
 # import random
 # N = int(input("Введите количество элементов в списке: "))
 # list = []
@@ -7,14 +7,14 @@
 # sum2 = 0    #сумма для элементов стоящих на нечетных позициях
 # for i in range(1, N+1):
 #     list.append(random.randint(0, 10))
-
+#
 # print(list)
-
+#
 # for i,numbers in enumerate(list):
 #     if i % 2 != 0:
 #         sum1 = sum1 + numbers
 # print(sum1)
-
+#
 # for i,numbers in enumerate(list):
 #     if i % 2 == 0:
 #         sum2 = sum2 + numbers
@@ -26,12 +26,12 @@
 # import random
 # N = int(input("Введите количество элементов в списке: "))
 # array = []
-
+#
 # for i in range(1, N+1):
 #     array.append(random.randint(0, 10))
-
+#
 # print(array)
-
+#
 # for i, numbers in enumerate(array):
 #     if i <= N//2:
 #         result = array[i]*array[N-i-1]
