@@ -36,7 +36,7 @@
 # pi = 0
 # x = 1
 #
-# for i in range(10000000):
+# for i in range(100000):
 #     pi += 4 / (x)
 #     x += 2
 #     pi -= 4 / (x)
