@@ -10,7 +10,7 @@
 #
 # print("Отфильтрованная строка:", filtered_line)
 
-
+# 2
 # delete = 'абв'
 # line = 'абвгдеж рабав копыто фабв абв АбВжэжд Абкн абрыволк аБволк'
 #
@@ -20,7 +20,7 @@
 #
 # print("Отфильтрованная строка:", filtered_line)
 
-
+# 3
 # def find_all_indexes(enter, search):
 #     line = []
 #     length = len(enter)
