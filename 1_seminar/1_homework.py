@@ -1,10 +1,11 @@
 #1. Сформировать список из N членов последовательности. Для N = 5: 1, -3, 9, -27, 81 и т.д.
 
 # N = int(input("Введите число: "))
-
+# array = []
 # for i in range (0, N+1):
 #     row = (-3)**i
-#     print(f"{i}: {row}")
+#     array.append(row)
+# print(array)
 
 
 
@@ -59,10 +60,11 @@
 #5. Написать программу получающую набор произведений чисел от 1 до N. Пример: пусть N = 4, тогда [ 1, 2, 6, 24 ].
 
 # N = int(input("Введите число: "))
-
+# array = []
 # factorial = 1
- 
+#
 # for i in range(1, N+1):
 #     factorial *= i
-#     print(factorial, end = ' ')
+#     array.append(factorial)
+# print(array)
 
